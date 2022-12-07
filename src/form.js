@@ -1,8 +1,3 @@
-import { Form } from 'antd';
-
-import React from 'react';
-import { Button, Checkbox, Form, Input } from 'antd';
-
 export default FormCustom = () => {
   const onFinish = (values) => {
     console.log('Success:', values);
